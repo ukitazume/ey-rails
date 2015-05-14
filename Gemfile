@@ -30,9 +30,10 @@ gem 'jquery-rails'
 
 # Use unicorn as the web server
 gem 'unicorn'
+gem 'eycap', :require => false
+gem 'capistrano', '2.15.5', :require => false
 
 # Deploy with Capistrano
-# gem 'capistrano'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
